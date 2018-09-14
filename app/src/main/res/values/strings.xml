@@ -21,6 +21,10 @@
     <string name="mensaje">Celular agregado</string>
     <string name="error_uno">Debe agregar un precio</string>
     <string name="error_dos">El precio debe ser mayor a 0</string>
+    <string name="reporte_tres">Reporte 3</string>
+    <string name="reporte_cuatro">Reporte 4</string>
+    <string name="reporte_cinco">Reporte 5</string>
+    <string name="mensaje_reporte_tres">no hay celulares huawei</string>
     <string-array name="opciones">
         <item>@string/agregar</item>
         <item>@string/listado</item>
@@ -40,5 +44,10 @@
         <item>@string/android</item>
         <item>@string/ios</item>
         <item>@string/windowsPhone</item>
+    </string-array>
+    <string-array name="reportes">
+        <item>@string/reporte_tres</item>
+        <item>@string/reporte_cuatro</item>
+        <item>@string/reporte_cinco</item>
     </string-array>
 </resources>

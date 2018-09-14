@@ -3,9 +3,42 @@
     <string name="agregar">Agregar celulares</string>
     <string name="listado">listado</string>
     <string name="reporte">Reporte</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="sistemaOperativo">Sistema operativo</string>
+    <string name="precio">Precio</string>
+    <string name="apple">Apple</string>
+    <string name="nokia">Nokia</string>
+    <string name="huawei">Huawei</string>
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+    <string name="azul">Azul</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="windowsPhone">Windows phone</string>
+    <string name="agregarBtn">Agregar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mensaje">Celular agregado</string>
+    <string name="error_uno">Debe agregar un precio</string>
+    <string name="error_dos">El precio debe ser mayor a 0</string>
     <string-array name="opciones">
         <item>@string/agregar</item>
         <item>@string/listado</item>
         <item>@string/reporte</item>
+    </string-array>
+    <string-array name="marcas">
+        <item>@string/apple</item>
+        <item>@string/nokia</item>
+        <item>@string/huawei</item>
+    </string-array>
+    <string-array name="colores">
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
+        <item>@string/azul</item>
+    </string-array>
+    <string-array name="so">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+        <item>@string/windowsPhone</item>
     </string-array>
 </resources>

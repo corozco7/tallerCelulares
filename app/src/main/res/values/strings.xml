@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">tallerCelulares</string>
+    <string name="agregar">Agregar celulares</string>
+    <string name="listado">listado</string>
+    <string name="reporte">Reporte</string>
+    <string-array name="opciones">
+        <item>@string/agregar</item>
+        <item>@string/listado</item>
+        <item>@string/reporte</item>
+    </string-array>
+</resources>

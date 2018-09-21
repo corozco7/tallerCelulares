@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">tallerCelulares</string>
     <string name="agregar">Agregar celulares</string>
-    <string name="listado">listado</string>
+    <string name="listado">Listado</string>
     <string name="reporte">Reporte</string>
     <string name="marca">Marca</string>
     <string name="color">Color</string>
@@ -24,7 +24,8 @@
     <string name="reporte_tres">Reporte 3</string>
     <string name="reporte_cuatro">Reporte 4</string>
     <string name="reporte_cinco">Reporte 5</string>
-    <string name="mensaje_reporte_tres">no hay celulares huawei</string>
+    <string name="no_agregados">No hay celulares agregados</string>
+    <string name="mensaje_reporte_tres">No hay celulares huawei</string>
     <string-array name="opciones">
         <item>@string/agregar</item>
         <item>@string/listado</item>

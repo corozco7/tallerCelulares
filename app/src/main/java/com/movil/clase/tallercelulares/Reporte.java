@@ -38,6 +38,7 @@ public class Reporte extends AppCompatActivity {
                         reporte3();
                         break;
                     case 1:
+                        reporte4();
                         break;
                     case 2:
                         break;
@@ -89,6 +90,36 @@ public class Reporte extends AppCompatActivity {
     }
 
     public void reporte4(){
+        ArrayList<Celular> celulares;
+        ArrayList<Celular> apple = new ArrayList<>();
+        int i = 0, cantidad = 0;
+        celulares = Datos.obtener();
+        if (celulares.isEmpty()) {
+            Toast.makeText(this,
+                    getResources().getString(R.string.no_agregados),
+                    LENGTH_SHORT).show();
+        } else {
+            while (celulares.size() > i){
+                if (celulares.get(i).getMarca().equalsIgnoreCase
+                        (getResources().getString(R.string.apple))
+                        && celulares.get(i).getColor().equalsIgnoreCase
+                        (getResources().getString(R.string.negro))){
+                    apple.add(celulares.get(i));
+                }
+                i++;
+            }
+            if (apple.isEmpty()){
+                Toast.makeText(this,
+                        getResources().getString(R.string.mensaje_reporte_cuatro),
+                        LENGTH_SHORT).show();
+            } else {
+                while (apple.size() > cantidad){
+                    cantidad++;
+                }
+                Toast.makeText(this,getString(R.string.cantidad) + ": " +
+                        cantidad,LENGTH_SHORT).show();
+            }
+        }
 
     }
 

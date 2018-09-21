@@ -25,7 +25,9 @@
     <string name="reporte_cuatro">Reporte 4</string>
     <string name="reporte_cinco">Reporte 5</string>
     <string name="no_agregados">No hay celulares agregados</string>
+    <string name="cantidad">Cantidad</string>
     <string name="mensaje_reporte_tres">No hay celulares huawei</string>
+    <string name="mensaje_reporte_cuatro">No hay celulares apple</string>
     <string-array name="opciones">
         <item>@string/agregar</item>
         <item>@string/listado</item>
